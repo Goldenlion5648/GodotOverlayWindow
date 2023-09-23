@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvmjrk760u2sa"]
+
+[ext_resource type="Script" path="res://test_window.gd" id="1_5baq1"]
+[ext_resource type="Texture2D" uid="uid://ryvadh6focjm" path="res://elementGlass051.png" id="2_vs8iq"]
+
+[node name="Window" type="Window"]
+position = Vector2i(50, 36)
+size = Vector2i(200, 200)
+script = ExtResource("1_5baq1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("2_vs8iq")
+centered = false
